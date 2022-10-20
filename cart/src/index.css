@@ -12,6 +12,7 @@ body {
 }
 .cart-item .right-block {
   padding: 0 20px;
+  /* margin-left: -20px; */
 }
 .cart-item-actions {
   margin-top: 20px;
@@ -24,3 +25,7 @@ body {
 .action-icons:hover {
   cursor: pointer;
 }
+.for-margin{
+  margin-left:-90px;
+}
+
