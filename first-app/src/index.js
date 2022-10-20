@@ -7,6 +7,8 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    {/* we always have to start a react comaponent with a capital letter because react have to figure out that wheter it is a
+    html component or react component */}
     <App />
   </React.StrictMode>
 );

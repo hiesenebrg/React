@@ -8,6 +8,7 @@ const name = "Adarsh";
 
 
 const returnHTML = (
+  <>
                   <div className="App">
                   <header className="App-header">
                     <img src={logo} className="App-logo" alt="logo" />
@@ -21,7 +22,14 @@ const returnHTML = (
                     
                   </header>
                   </div>
+                  <span>
+                    Adarsh
+                  </span>
+                  
+                  </>
 );
+// please note that we cannot return two tags indepenedtly for that we must have to wrap them into a single tag or we can use react fragments
+                  // as done
   
 
   return returnHTML;
